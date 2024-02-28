@@ -2,12 +2,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background: linear-gradient(to bottom, #60374f, #64b7cc) no-repeat fixed;
    }
    header {
     background-color:#451231;
-    ;
     color: #fff;
-    padding: 20px;
+    border-radius: 25px;
    }
    header h1 {
     margin: 0;
@@ -49,6 +49,7 @@ body {
     margin: 10px 0;
     }
     footer {
-    padding: 5px 10px;
+    padding: 50px;
+    
     }
    }
