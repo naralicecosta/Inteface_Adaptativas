@@ -3,35 +3,43 @@ body {
     margin: 0;
     padding: 0;
     background: linear-gradient(to bottom, #60374f, #64b7cc) no-repeat fixed;
-   }
-   header {
+}
+
+header {
     background-color:#451231;
     color: #fff;
     border-radius: 25px;
-   }
-   header h1 {
+}
+
+header h1 {
     margin: 0;
    }
-   nav ul {
+
+nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
    }
-   nav ul li {
+
+nav ul li {
     display: inline;
     margin-right: 20px;
    }
-   nav ul li:last-child {
+
+nav ul li:last-child {
     margin-right: 0;
    }
-   nav ul li a {
+
+nav ul li a {
     color: #fff;
     text-decoration: none;
    }
-   main {
+
+main {
     padding: 20px;
    }
-   footer {
+   
+footer {
     background-color: #451231;
     color: #fff;
     padding: 10px 20px;
@@ -39,6 +47,7 @@ body {
     bottom: 0;
     width: 100%;
    }
+
    /* Media query para telas menores */
    @media screen and (max-width: 768px) {
     header {
@@ -49,7 +58,13 @@ body {
     margin: 10px 0;
     }
     footer {
-    padding: 50px;
-    
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #333; /* Cor de fundo do footer */
+        color: white; /* Cor do texto do footer */
+        padding: 50px;
+        z-index: 9999; /* Certifique-se de que o footer esteja acima de outros elementos */
     }
-   }
+}
